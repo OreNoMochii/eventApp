@@ -1,0 +1,6 @@
+.login {
+    display: grid;
+    place-items: center;
+    background-color: white;
+    height: 100%;
+}
