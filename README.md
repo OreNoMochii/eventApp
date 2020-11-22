@@ -2,10 +2,10 @@
 
 -Open the file src/API_DB/main.py and input your own mail smtp information so that you can recive mail otherwise it will retrive an error. 
 
--app.config['MAIL_SERVER']='the smtp server of your mail' #mail server
--app.config['MAIL_PORT'] = ' port' #mail port an integer
--app.config['MAIL_USERNAME'] = 'your own mail address' #mail address
--app.config['MAIL_PASSWORD'] = 'your own password' #mail password
+-app.config['MAIL_SERVER']='the smtp server of your mail' your mail server
+-app.config['MAIL_PORT'] = ' port' your mail port it's an integer not a string
+-app.config['MAIL_USERNAME'] = 'your own mail address' your mail address
+-app.config['MAIL_PASSWORD'] = 'your own password' your mail password
 -app.config['MAIL_USE_TLS'] = False
 -app.config['MAIL_USE_SSL'] = True
 
@@ -36,15 +36,15 @@ Dependencies:
 
 API methods. 
 
--"http://127.0.0.1:5000//user/<string:user_mail>") #retrieve user from the db 
--"http://127.0.0.1:5000//user/login/<string:user_mail>") #retrieve login info from a user
--"http://127.0.0.1:5000//user/register/<string:user_mail>") #post a new registered user in the db
--"http://127.0.0.1:5000//event/create/") #post a new event in the db
--"http://127.0.0.1:5000//event/update/<int:signup_id>") #update an event if needed. 
--"http://127.0.0.1:5000//signup/<string:user_name>") #post a new signup in the db. 
--"http://127.0.0.1:5000//signup/unsign/<int:event_id>") #unsign a user from an event in the db. 
--"http://127.0.0.1:5000//event/listAllEvents/") #list all events in the db. 
--"http://127.0.0.1:5000//signedup/<string:user_mail>") #list all events that a user have signedup to so far. 
+-"http://127.0.0.1:5000//user/<string:user_mail>") method that gets user from the db. (GET)
+-"http://127.0.0.1:5000//user/login/<string:user_mail>") method that retrieves login info from a user. (GET)
+-"http://127.0.0.1:5000//user/register/<string:user_mail>") method that posts a new registered user in the db. (POST)
+-"http://127.0.0.1:5000//event/create/") method that posts a new event in the db. (POST)
+-"http://127.0.0.1:5000//event/update/<int:signup_id>") method that updates an event if needed. (POST)
+-"http://127.0.0.1:5000//signup/<string:user_name>") method that posts a new signup in the db. (POST)
+-"http://127.0.0.1:5000//signup/unsign/<int:event_id>") method that unsigns a user from an event in the db. (POST)
+-"http://127.0.0.1:5000//event/listAllEvents/") method that lists all events in the db. (GET)
+-"http://127.0.0.1:5000//signedup/<string:user_mail>") #list all events that a user have signedup to so far. (GET)
 
 
 
