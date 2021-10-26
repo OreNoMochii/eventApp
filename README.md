@@ -36,15 +36,15 @@ Dependencies:
 
 API methods. 
 
--"http://127.0.0.1:5000//user/<string:user_mail>") method that gets user from the db. (GET)
--"http://127.0.0.1:5000//user/login/<string:user_mail>") method that retrieves login info from a user. (GET)
--"http://127.0.0.1:5000//user/register/<string:user_mail>") method that posts a new registered user in the db. (POST)
--"http://127.0.0.1:5000//event/create/") method that posts a new event in the db. (POST)
--"http://127.0.0.1:5000//event/update/<int:signup_id>") method that updates an event if needed. (POST)
--"http://127.0.0.1:5000//signup/<string:user_name>") method that posts a new signup in the db. (POST)
--"http://127.0.0.1:5000//signup/unsign/<int:event_id>") method that unsigns a user from an event in the db. (POST)
--"http://127.0.0.1:5000//event/listAllEvents/") method that lists all events in the db. (GET)
--"http://127.0.0.1:5000//signedup/<string:user_mail>") #list all events that a user have signedup to so far. (GET)
+-"http://127.0.0.1:5000//user/<string:user_mail>") method that gets user from the db. (GET)\
+-"http://127.0.0.1:5000//user/login/<string:user_mail>") method that retrieves login info from a user. (GET)\
+-"http://127.0.0.1:5000//user/register/<string:user_mail>") method that posts a new registered user in the db. (POST)\
+-"http://127.0.0.1:5000//event/create/") method that posts a new event in the db. (POST)\
+-"http://127.0.0.1:5000//event/update/<int:signup_id>") method that updates an event if needed. (POST)\
+-"http://127.0.0.1:5000//signup/<string:user_name>") method that posts a new signup in the db. (POST)\
+-"http://127.0.0.1:5000//signup/unsign/<int:event_id>") method that unsigns a user from an event in the db. (POST)\
+-"http://127.0.0.1:5000//event/listAllEvents/") method that lists all events in the db. (GET)\
+-"http://127.0.0.1:5000//signedup/<string:user_mail>") #list all events that a user have signedup to so far. (GET)\
 
 
 
