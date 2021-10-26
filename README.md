@@ -2,12 +2,12 @@
 
 -Open the file src/API_DB/main.py and input your own mail smtp information so that you can recive mail otherwise it will retrive an error. 
 
--app.config['MAIL_SERVER']='the smtp server of your mail' your mail server
--app.config['MAIL_PORT'] = ' port' your mail port it's an integer not a string
--app.config['MAIL_USERNAME'] = 'your own mail address' your mail address
--app.config['MAIL_PASSWORD'] = 'your own password' your mail password
--app.config['MAIL_USE_TLS'] = False
--app.config['MAIL_USE_SSL'] = True
+-app.config['MAIL_SERVER']='the smtp server of your mail' your mail server\
+-app.config['MAIL_PORT'] = ' port' your mail port it's an integer not a string\
+-app.config['MAIL_USERNAME'] = 'your own mail address' your mail address\
+-app.config['MAIL_PASSWORD'] = 'your own password' your mail password\
+-app.config['MAIL_USE_TLS'] = False\
+-app.config['MAIL_USE_SSL'] = True\
 
 -Then run npm start from root folder tik-tok. 
 
